@@ -1,4 +1,3 @@
-``` C
 #include <stdio.h>
 
 void input(void);
@@ -41,5 +40,4 @@ void calc(void){
     }else{
         printf("ERROR!");
     }
-}	
-```
+}

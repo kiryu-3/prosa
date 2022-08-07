@@ -1,12 +1,19 @@
-``` C
 #include <stdio.h>
 
 int main(void) {
 
     float fkazu,skazu,kekka;
-    int enzansi;
-  
-    for(int i=0; i<3; i++){
+    int i=0,j,enzansi;
+
+    /*printf("何回ループするかを選択してください\n");
+    scanf("%d",&j);
+    if(j<=0){
+	printf("ERROR!\n");
+	return 0;
+    }*/
+
+    while(i<3){
+    //while(i<j){
     	printf("最初の数字を入力してENTERボタンを押してください\n");
     	scanf("%f",&fkazu);
     	printf("次の数字を入力してENTERボタンを押してください\n");
@@ -27,9 +34,9 @@ int main(void) {
         	kekka = fkazu / skazu ;
         	printf("%f / %f = %f\n", fkazu,skazu,kekka);
     	}else{
-        	printf("ERROR!");
+        	printf("ERROR!\n");
     	}
+	i++;
     }
     return 0;
 }	
-```

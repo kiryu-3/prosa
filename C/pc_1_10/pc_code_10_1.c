@@ -1,4 +1,3 @@
-``` C
 #include <stdio.h>
 
 float fkazu,skazu;
@@ -70,4 +69,3 @@ float calc(int check){
     }
     return z;
 }	
-```

@@ -1,20 +1,18 @@
-``` C
 #include <stdio.h>
 
 int main(void) {
 
     float fkazu,skazu,kekka;
-    int i=0,j,enzansi;
+    int i,j,enzansi;
 
-    /*printf("何回ループするかを選択してください\n");
+    printf("何回ループするかを選択してください\n");
     scanf("%d",&j);
     if(j<=0){
 	printf("ERROR!\n");
 	return 0;
-    }*/
+    }
 
-    while(i<3){
-    //while(i<j){
+    for(i=0; i<j; i++){
     	printf("最初の数字を入力してENTERボタンを押してください\n");
     	scanf("%f",&fkazu);
     	printf("次の数字を入力してENTERボタンを押してください\n");
@@ -37,8 +35,6 @@ int main(void) {
     	}else{
         	printf("ERROR!\n");
     	}
-	i++;
     }
     return 0;
 }	
-```

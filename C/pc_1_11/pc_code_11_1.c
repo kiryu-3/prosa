@@ -1,4 +1,3 @@
-``` C
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -148,7 +147,3 @@ void finish() {
 		printf("引き分け\n");
 	}
 }
-
-
-
-```
