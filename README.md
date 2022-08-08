@@ -38,8 +38,8 @@
 - [第9回](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_09/pc_09.md)  :　関数
   -  [第9回補足資料](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_09/pc_09%2B.md)  :　ライブラリ関数  
 
-- [第10回](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_10/pc_10.md)  :　二次元配列・多次元配列・配列の注意点
-  -  [第10回補足資料](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_10/pc_10%2B.md)  :　引数・戻り値  
+- [第10回](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_10/pc_10.md)  :　引数・戻り値
+  -  [第10回補足資料](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_10/pc_10%2B.md)  :　グローバル変数
 
 - [第11回](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_11/pc_11.md)  :　オセロの基本的なルール・オセロプログラム作成
   -  [第11回補足資料](https://github.com/kiryu-3/prosa/blob/main/C/pc_1_11/pc_11%2B.md)  :　system("cls");  
