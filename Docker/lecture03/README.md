@@ -31,7 +31,7 @@ Dockerfileを元にImageを作るケースが現場では圧倒的に多いよ�
 ![](./img/image1.png)
 
 **FROM**：元となるベースのイメージを指定    
-                　　　　Dockerfileの先頭に書かれることが多い
+                　　　　Dockerfileの先頭に書かれることが多い  
 **RUN**：実行したいLinuxコマンドを指定
 
 今回は、以下のような流れでImageが生成されます。  
