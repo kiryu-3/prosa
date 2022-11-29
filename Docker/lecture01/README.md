@@ -28,7 +28,7 @@ Dockerとは何か？ [こちら ](https://datawokagaku.com/whatisdocker/)を参
 
 ・**Container** … 仮想的なユーザー空間のこと。OSやソフトのデータやプログラムが入っている。  
 　　　　　　　コンテナを使える仕組みが**Docker**である。  
-　　　　　　　持ち運ぶことができるので、OSが違う人同士でも開発環境を一斉に揃えることができる。
+　　　　　　　持ち運ぶことができるので、OSが違う人同士でも開発環境を一斉に揃えることができる。  
 ・**Docker Engine** … Dockerを使うためのソフトウェア。  
 ・**Docker Image** … Containerの素になるもの。1つあれば同じcontainerを量産できる。  
 　　　　　　　　 また、containerから Imageを作ることもできる。  
