@@ -1,6 +1,12 @@
 # Docker 　第3章
 Dockerfileを作っていきましょう。
 
+- [Docker 　第3章](#docker-第3章)
+  - [Dockerfileとは](#dockerfileとは)
+  - [Dockerfile作成](#dockerfile作成)
+  - [DockerfileからImage作成](#dockerfileからimage作成)
+  - [よく使うDockerfileコマンド](#よく使うdockerfileコマンド)
+- [更新情報](#更新情報)
 
 
 ## Dockerfileとは
@@ -16,7 +22,9 @@ Dockerfile自体はただのテキストファイルですが、
 Dockerfileを元にImageを作るケースが現場では圧倒的に多いようです。  
 
 ## Dockerfile作成
-みなさんがお気に入りの場所にDockerというフォルダを作成し、そのなかにDockerfileというファイルを作ってください。  
+みなさんがお気に入りの場所にDockerというフォルダを作成し、そのなかにDockerfileというフ
+
+ァイルを作ってください。  
 
 作ったテキストファイルの中に以下のように記述してください。
 
