@@ -32,11 +32,11 @@ Dockerとは何か？ [こちら ](https://datawokagaku.com/whatisdocker/)を参
 ・**Docker Engine** … Dockerを使うためのソフトウェア。  
 ・**Docker Image** … Containerの素になるもの。1つあれば同じcontainerを量産できる。  
 　　　　　　　　 また、containerから Imageを作ることもできる。  
-・**Docker file** … Docker Imageを作るための設計書。txtファイル。
+・**Docker file** … Docker Imageを作るための設計書。txtファイル。  
 ・**Linux OS** … サーバ用のOSの代表格。DockerはLinux OS上でしか動かない。  
 ・**Windows or Mac** … デスクトップ版のDockerを使用する際は、Linux OSの存在を意識しなくてもよい。  
 　　　　　　　　　　そのため、OSが2つ同居することに問題はない。  
-　　　　　　　　　　使用する仮想化ソフトウェアはWindowsかMacかによって異なる。
+　　　　　　　　　　使用する仮想化ソフトウェアはWindowsかMacかによって異なる。  
 
 
 ※1　**サーバ** … 何かサービスを提供するもの。複数の人がアクセスして使う。  
