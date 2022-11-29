@@ -149,7 +149,7 @@ ubuntuコンテナが更新されたことを確認するために、一旦コ�
 
 ![](./img/image20.png)
 
-今回はImage名はubuntuのまま、TAGを`**update**`として新しいImageを作りました。
+今回はImage名はubuntuのまま、TAGを`update`として新しいImageを作りました。
 
 `Docker Images`で新しいImageを確認してみましょう。
 
