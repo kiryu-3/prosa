@@ -1,5 +1,6 @@
-# 第1章 記述統計入門
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
+# 第1章 記述統計入門
 
 ```python
 import numpy as np
