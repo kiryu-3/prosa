@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta name="theme-color" content="#4F7DC9">
   <meta charset="UTF-8">
-  <title>DSPython Advanced</title>
+  <title>Python_DS</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements-tmp/codelab-elements.css">
@@ -22,35 +22,35 @@
 <body>
   <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
   <google-codelab codelab-gaid=""
-                  id="dspython-advanced"
-                  title="DSPython Advanced"
+                  id="python-ds"
+                  title="Python_DS"
                   environment="web"
                   feedback-link="">
     
       <google-codelab-step label="導入" duration="0">
-        <h2 is-upgraded>＜データサイエンスとは＞</h2>
-<p>そもそも<strong>データサイエンス</strong>とは何か、関心がある方は以下のサイトを参考にしてください。</p>
-<p>①<a href="https://datawokagaku.com/datascience_best_job/" target="_blank">かめさんのブログ</a> ②<a href="https://toukei-lab.com/data-scientist#Step4SQL" target="_blank">ウマたんさんのブログ</a></p>
+        <p>この資料では、データサイエンスに使うPythonライブラリの基本についてまとめています。</p>
+<p>そもそもデータサイエンスがよく分からない方は<a href="https://datawokagaku.com/datascience_best_job/" target="_blank">かめさん</a>や<a href="https://toukei-lab.com/data-scientist#Step4SQL" target="_blank">ウマたんさん</a>のブログが参考になります。</p>
+<p>「データサイエンス入門」で学習した内容より大分突っ込んだ内容になります。</p>
+<p>ノートブック内では映画のデータセットを使って分析を進めています。</p>
+<p>巷にはデータサイエンスが学習できるサービスがありふれていますので、スタイルが合うようなら本資料を使っていただけると幸いです。</p>
 <h2 is-upgraded>＜参考サイト＞</h2>
-<p>本資料は、<a href="https://twitter.com/usdatascientist" target="_blank">かめさん</a>の<a href="https://datawokagaku.com/python_for_ds_summary/" target="_blank">ブログ講座</a>と<a href="https://datawokagaku.com/ds_for_python_video_lecture/" target="_blank">動画講座</a>を自分なりにまとめ直したものです。</p>
-<p>データサイエンスに使うPythonライブラリの基本についてまとめています。</p>
-<p>（Basic編との違いとしては、Pythonのオブジェクト指向について触れているかどうかが主ですが、  </p>
-<p> Advanced編では一部内容を追加している部分もあります。）</p>
+<p>本資料は、<a href="https://twitter.com/usdatascientist" target="_blank">かめさん</a>の<a href="https://datawokagaku.com/python_for_ds_summary/" target="_blank">ブログ講座</a>と<a href="https://datawokagaku.com/ds_for_python_video_lecture/" target="_blank">動画講座</a>を基に作られています。</p>
+<p>（かめさんにはブログへのリンクを貼るという条件で許可を得ています）</p>
+<p>かめさんのブログには他にも統計や機械学習のブログ講座、またそれらを勉強するための本や動画の紹介があります。</p>
 <h2 is-upgraded>＜開発環境の整備＞</h2>
-<p>以下のURLを参考に、環境を構築しましょう。</p>
-<p><strong>Googleアカウント</strong>と<strong>Google Chrome</strong>の準備が必要になります。</p>
-<p>WindowsとMacで共通です。</p>
-<p><a href="https://bit.ly/3R1BXOT" target="_blank">Google Colaboratory 導入</a></p>
-<p>Google Colabratoryで作成したファイルはノートブック（<strong>～.ipynb</strong>）という形式です。</p>
-<p class="image-container"><img style="width: 101.00px" src="img\\708e0a1d74b4003d.png"></p>
+<p>「データサイエンス入門」と同様、Google Colabratoryでの実行を想定しています。  </p>
+<p>（JupyterLabだとエラーが出る部分がいくつかあります）</p>
+<p>準備ができていない方は<a href="https://bit.ly/3R1BXOT" target="_blank">こちら</a>を参考に環境を整備してください。</p>
+<p class="image-container"><img style="width: 101.00px" src="img\\40468d7ce0513b9c.png"></p>
 <p>というボタンが表示されるので、毎回ノートブックをダウンロードしてください。</p>
+<p>資料の訂正や気になることがある方は、個人的に連絡していただけると嬉しいです。</p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Numpy" duration="0">
-        <p>ノートブックの内容は以下の通りです。</p>
-<p><a href="https://drive.google.com/file/d/11ZTTVAdQgk54OJmv93FclMtnyO9JImpD/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+        <p>Numpy編は<a href="https://github.com/kiryu-3/Prmn2023_DS/blob/main/Python/Python_DS/DS_Numpy.ipynb" target="_blank">こちら</a></p>
+<p>ノートブックの内容は以下の通りです。</p>
 <table>
 <tr><td colspan="1" rowspan="1"><p>○ Numpyとは</p>
 </td></tr>
@@ -77,15 +77,15 @@
 <tr><td colspan="1" rowspan="1"><p>○ ndarrayの保存とロード</p>
 </td></tr>
 </table>
-<p>pdf版はこちらです。</p>
-<p><a href="https://drive.google.com/file/d/12JZLnYGu3wZk8axatWgicEFebb7ZTbZJ/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+<p>pdf版はこちらです。※旧版です</p>
+<p><a href="https://drive.google.com/file/d/1QBiXcVzk-KT1v9mSxyi5NSmSz-4LldaV/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Pandas" duration="0">
-        <p>ノートブックの内容は以下の通りです。</p>
-<p><a href="https://drive.google.com/file/d/11ZFPh39PraZsGO1IFHgkHFpy6cL5yF3u/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+        <p>Pandas編は<a href="https://github.com/kiryu-3/Prmn2023_DS/blob/main/Python/Python_DS/DS_Pandas.ipynb" target="_blank">こちら</a></p>
+<p>ノートブックの内容は以下の通りです。</p>
 <table>
 <tr><td colspan="1" rowspan="1"><p>○ Pandasとは</p>
 </td></tr>
@@ -109,16 +109,16 @@
 </td></tr>
 </table>
 <p>ノートブック内で用いるCSVファイルはこちらです。（Matplotlib編やSeaborn編でも共通です）</p>
-<p><a href="https://drive.google.com/file/d/12OY39FTgfoVMYLqGx9g2S8Ex-gZBwl0T/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
-<p>pdf版はこちらです。</p>
-<p><a href="https://drive.google.com/file/d/11wLmpagNZzDZ0eMyV8eCX96AF9qhlV_w/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+<p><a href="https://drive.google.com/file/d/1LMgnaOBYp2rsTNI5fBT_Z07lubDov7d6/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+<p>pdf版はこちらです。※旧版です</p>
+<p><a href="https://drive.google.com/file/d/1L6YZXxu07W0rRZU2ZYkjbV03mNHf1oqY/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Matplotlib" duration="0">
-        <p>ノートブックの内容は以下の通りです。</p>
-<p><a href="https://drive.google.com/file/d/11VVRlGoA0Ptui__5IqU8lrksLb6p8TQz/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+        <p>Matplotlib編は<a href="https://github.com/kiryu-3/Prmn2023_DS/blob/main/Python/Python_DS/DS_Matplotlib.ipynb" target="_blank">こちら</a></p>
+<p>ノートブックの内容は以下の通りです。</p>
 <table>
 <tr><td colspan="1" rowspan="1"><p>○ matplotlibとは</p>
 </td></tr>
@@ -140,16 +140,16 @@
 </td></tr>
 </table>
 <p>ノートブック内で用いるCSVファイルはこちらです。（Pandas編やSeaborn編でも共通です）</p>
-<p><a href="https://drive.google.com/file/d/12OY39FTgfoVMYLqGx9g2S8Ex-gZBwl0T/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
-<p>pdf版はこちらです。</p>
-<p><a href="https://drive.google.com/file/d/11Zkis64p05-aIJAQnZC1bqc131kAP7G_/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+<p><a href="https://drive.google.com/file/d/1LMgnaOBYp2rsTNI5fBT_Z07lubDov7d6/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+<p>pdf版はこちらです。※旧版です</p>
+<p><a href="https://drive.google.com/file/d/1LKf2p4hd6CNlYX0dhDNeHFiPHM3Ukhpp/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Seaborn" duration="0">
-        <p>ノートブックの内容は以下の通りです。</p>
-<p><a href="https://drive.google.com/file/d/11WTjcdW7EhCisau1Q2Oo4I-UzU1T7vJq/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+        <p>Seaborn編は<a href="https://github.com/kiryu-3/Prmn2023_DS/blob/main/Python/Python_DS/DS_Seaborn.ipynb" target="_blank">こちら</a></p>
+<p>ノートブックの内容は以下の通りです。</p>
 <table>
 <tr><td colspan="1" rowspan="1"><p>○ Seabornとは</p>
 </td></tr>
@@ -163,9 +163,9 @@
 </td></tr>
 </table>
 <p>ノートブック内で用いるCSVファイルはこちらです。（Pandas編やMatplotlib編でも共通です）</p>
-<p><a href="https://drive.google.com/file/d/12OY39FTgfoVMYLqGx9g2S8Ex-gZBwl0T/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
-<p>pdf版はこちらです。</p>
-<p><a href="https://drive.google.com/file/d/12AsplufaSi3lEqB-WXE2rNOLOJ6zyUD3/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+<p><a href="https://drive.google.com/file/d/1LMgnaOBYp2rsTNI5fBT_Z07lubDov7d6/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
+<p>pdf版はこちらです。※旧版です</p>
+<p><a href="https://drive.google.com/file/d/1LVNUJLzXzK41Td35T5cyWGUOD6Kxr-OW/view?usp=sharing" target="_blank"><paper-button class="colored" raised>Download</paper-button></a></p>
 
 
       </google-codelab-step>
