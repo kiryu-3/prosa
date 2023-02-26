@@ -1,6 +1,6 @@
 # プログラミングサークル
 
-2023/2/22現在、公開できるすべての資料です。
+2023/2/26現在、公開できるすべての資料です。
 
 - [C言語](https://github.com/kiryu-3/prosa/tree/main/C) 　　　　　 　　　　　　※完成版です
 - [Python（基本文法）](https://kiryu-3.github.io/prosa/python-basic/index.html#0)　　　　　※完成版です 
